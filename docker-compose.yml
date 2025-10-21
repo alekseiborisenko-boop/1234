@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ../backend
+    container_name: docker-backend-1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../backend:/app
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./backups:/app/backups
+    environment:
+      - OLLAMA_HOST=host.docker.internal:11434
+      - PYTHONUNBUFFERED=1
+      - GOOGLE_API_KEY=AIzaSyC4sVg0OIGRyvpfZ4UNy4TDYB3YqzBOQN0
+      - GOOGLE_CSE_CX=30006c7cf56bf424b
+      - OPENWEATHER_API_KEY=2ba311f07f7c0d9c80ae7078bb26e211
+      - GROQ_API_KEY=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
+      - GOOGLE_GEMINI_KEY=AIzaSyBHWccqT4TY9LI_QFQPVR5Zi32Umw3PPdc
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+
+  frontend:
+    image: nginx:alpine
+    container_name: docker-frontend-1
+    ports:
+      - "3000:80"
+    volumes:
+      - ../frontend:/usr/share/nginx/html:rw
+    restart: unless-stopped
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: docker-searxng-1
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

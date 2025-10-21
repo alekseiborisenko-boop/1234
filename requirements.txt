@@ -1,0 +1,64 @@
+# ==================== CORE ====================
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+python-multipart==0.0.12
+
+# ==================== HTTP & WEB ====================
+requests==2.32.3
+httpx==0.27.2
+aiohttp==3.10.10
+lxml==5.3.0
+beautifulsoup4==4.12.3
+
+# ==================== AI & ML ====================
+openai==1.54.3
+anthropic==0.39.0
+google-generativeai==0.8.3
+groq>=0.11.0
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# ==================== DATA & DATABASE ====================
+numpy<2.0,>=1.24.0
+pandas==2.2.3
+
+# ==================== UTILITIES ====================
+psutil==6.1.0
+GPUtil==1.4.0
+pytz==2024.2
+python-dotenv==1.0.1
+pyyaml==6.0.2
+aiofiles==24.1.0
+
+# ==================== MEDIA ====================
+yt-dlp==2024.10.7
+Pillow==11.0.0
+opencv-python-headless==4.10.0.84
+
+# ==================== SEARCH & SCRAPING ====================
+duckduckgo-search==6.3.5
+wikipedia==1.4.0
+trafilatura==1.12.2
+newspaper3k==0.2.8
+
+# ==================== PDF & DOCUMENTS ====================
+pypdf==5.1.0
+python-docx==1.1.2
+openpyxl==3.1.5
+
+# ==================== SECURITY & AUTH ====================
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ==================== MARKDOWN & TEXT ====================
+markdown==3.7
+pygments==2.18.0
+chardet==5.2.0
+
+# ==================== MONITORING & LOGGING ====================
+prometheus-client==0.21.0
+python-json-logger==3.1.0
+
+# ==================== BACKUP & VERSION CONTROL ====================
+GitPython>=3.1.40

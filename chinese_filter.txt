@@ -1,0 +1,17 @@
+﻿def filter_chinese_characters(text: str) -> str:
+    if not text:
+        return text
+    chinese_ranges = [(0x4E00, 0x9FFF), (0x3400, 0x4DBF), (0x20000, 0x2A6DF), (0x2A700, 0x2B73F), (0x2B740, 0x2B81F), (0x2B820, 0x2CEAF), (0xF900, 0xFAFF), (0x3300, 0x33FF), (0xFE30, 0xFE4F), (0x2F800, 0x2FA1F)]
+    filtered_chars = []
+    removed_count = 0
+    for char in text:
+        char_code = ord(char)
+        is_chinese = any(start <= char_code <= end for start, end in chinese_ranges)
+        if not is_chinese:
+            filtered_chars.append(char)
+        else:
+            removed_count += 1
+    filtered_text = ''.join(filtered_chars)
+    if removed_count > 0:
+        logger.warning(f"Removed {removed_count} Chinese characters from response")
+    return filtered_text

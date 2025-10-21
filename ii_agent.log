@@ -1,0 +1,103 @@
+2025-10-18 08:38:17,306 - main - WARNING - GPU not detected
+2025-10-18 08:38:17,328 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-18 08:38:17,766 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-18 08:38:17,766 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-10-18 08:39:16,820 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-18 08:39:16,835 - main - INFO - ✅ ChromaDB and SentenceTransformer initialized
+2025-10-18 09:42:08,681 - main - INFO - Web needed: default
+2025-10-18 09:42:08,682 - main - INFO - RAG search: ?????! ?? ?????...
+2025-10-18 09:42:08,682 - main - INFO - Multi-search: ?????! ?? ?????
+2025-10-18 09:42:09,140 - main - INFO - Google: 0 results
+2025-10-18 09:42:10,291 - main - INFO - Wikipedia: 0 results
+2025-10-18 09:42:11,341 - primp - INFO - response: https://duckduckgo.com/?q=%3F%3F%3F%3F%3F%21+%3F%3F+%3F%3F%3F%3F%3F 200
+2025-10-18 09:42:11,947 - primp - INFO - response: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F%21+%3F%3F+%3F%3F%3F%3F%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-294160121453621159903284001284350554125&bing_market=wt-WT&ex=-1 202
+2025-10-18 09:42:11,948 - main - ERROR - DDG error: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F%21+%3F%3F+%3F%3F%3F%3F%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-294160121453621159903284001284350554125&bing_market=wt-WT&ex=-1 202 Ratelimit
+2025-10-18 09:42:11,951 - main - INFO - DDG: 0 results
+2025-10-18 09:42:11,953 - main - INFO - Total: 0 results
+2025-10-18 09:42:11,954 - main - WARNING - No sources found
+2025-10-18 09:42:15,019 - main - INFO - Web needed: default
+2025-10-18 09:42:15,020 - main - INFO - RAG search: ??????? ????? 2+2?...
+2025-10-18 09:42:15,021 - main - INFO - Multi-search: ??????? ????? 2+2?
+2025-10-18 09:42:15,563 - main - INFO - Google: 3 results
+2025-10-18 09:42:19,242 - main - INFO - Wikipedia: 1 results
+2025-10-18 09:42:20,130 - primp - INFO - response: https://duckduckgo.com/?q=%3F%3F%3F%3F%3F%3F%3F+%3F%3F%3F%3F%3F+2%2B2%3F 200
+2025-10-18 09:42:20,977 - primp - INFO - response: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F%3F%3F+%3F%3F%3F%3F%3F+2%2B2%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-55259568288936112695124892526343115014&bing_market=wt-WT&ex=-1 202
+2025-10-18 09:42:21,016 - main - ERROR - DDG error: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F%3F%3F+%3F%3F%3F%3F%3F+2%2B2%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-55259568288936112695124892526343115014&bing_market=wt-WT&ex=-1 202 Ratelimit
+2025-10-18 09:42:21,017 - main - INFO - DDG: 0 results
+2025-10-18 09:42:21,017 - main - INFO - Total: 4 results
+2025-10-18 09:42:21,018 - main - INFO - Top sources:
+2025-10-18 09:42:21,019 - main - INFO -  1. [2] https://ru.wikipedia.org/wiki/%D0%A3-2...
+2025-10-18 09:42:21,020 - main - INFO -  2. [1] https://forumserver.twoplustwo.com/...
+2025-10-18 09:42:21,021 - main - INFO -  3. [1] https://www.mathway.com/popular-problems/Algebra/200107...
+2025-10-18 09:42:21,021 - main - INFO - Parsing: https://ru.wikipedia.org/wiki/%D0%A3-2
+2025-10-18 09:42:22,419 - main - INFO - Parsing: https://forumserver.twoplustwo.com/
+2025-10-18 09:42:24,379 - main - INFO - Parsing: https://www.mathway.com/popular-problems/Algebra/200107
+2025-10-18 09:42:25,091 - main - INFO - Aggregating 3 sources
+2025-10-18 09:42:25,092 - main - INFO - Calling model: qwen2.5:7b-instruct-q4_K_M
+2025-10-18 09:42:30,130 - main - INFO - Model qwen2.5:7b-instruct-q4_K_M response: 81 chars
+2025-10-18 09:42:30,259 - main - INFO - Saved: ID=1
+2025-10-18 09:42:34,848 - main - INFO - Web needed: default
+2025-10-18 09:42:34,849 - main - INFO - RAG search: ????? ? ?????...
+2025-10-18 09:42:34,849 - main - INFO - Multi-search: ????? ? ?????
+2025-10-18 09:42:35,290 - main - INFO - Google: 0 results
+2025-10-18 09:42:36,484 - main - INFO - Wikipedia: 0 results
+2025-10-18 09:42:37,420 - primp - INFO - response: https://duckduckgo.com/?q=%3F%3F%3F%3F%3F+%3F+%3F%3F%3F%3F%3F 200
+2025-10-18 09:42:37,993 - primp - INFO - response: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F+%3F+%3F%3F%3F%3F%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-307290261843848743121440213218043415613&bing_market=wt-WT&ex=-1 202
+2025-10-18 09:42:37,994 - main - ERROR - DDG error: https://links.duckduckgo.com/d.js?q=%3F%3F%3F%3F%3F+%3F+%3F%3F%3F%3F%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-307290261843848743121440213218043415613&bing_market=wt-WT&ex=-1 202 Ratelimit
+2025-10-18 09:42:37,994 - main - INFO - DDG: 0 results
+2025-10-18 09:42:37,995 - main - INFO - Total: 0 results
+2025-10-18 09:42:37,995 - main - WARNING - No sources found
+2025-10-18 09:43:20,320 - main - INFO - Web needed: default
+2025-10-18 09:43:20,321 - main - INFO - RAG search: ривет! ак дела?...
+2025-10-18 09:43:20,321 - main - INFO - Multi-search: ривет! ак дела?
+2025-10-18 09:43:20,907 - main - INFO - Google: 3 results
+2025-10-18 09:43:25,213 - main - INFO - Wikipedia: 1 results
+2025-10-18 09:43:26,125 - primp - INFO - response: https://duckduckgo.com/?q=%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21+%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0%3F 200
+2025-10-18 09:43:26,732 - primp - INFO - response: https://links.duckduckgo.com/d.js?q=%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21+%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31158241081257403599622404112475935094&bing_market=wt-WT&ex=-1 202
+2025-10-18 09:43:26,734 - main - ERROR - DDG error: https://links.duckduckgo.com/d.js?q=%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21+%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0%3F&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31158241081257403599622404112475935094&bing_market=wt-WT&ex=-1 202 Ratelimit
+2025-10-18 09:43:26,735 - main - INFO - DDG: 0 results
+2025-10-18 09:43:26,736 - main - INFO - Total: 4 results
+2025-10-18 09:43:26,737 - main - INFO - Top sources:
+2025-10-18 09:43:26,738 - main - INFO -  1. [2] https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%83%D0%BC...
+2025-10-18 09:43:26,739 - main - INFO -  2. [1] https://www.reddit.com/r/Revit/comments/m7gclj/shared_parame...
+2025-10-18 09:43:26,740 - main - INFO -  3. [1] https://context.reverso.net/translation/russian-english/%D0%...
+2025-10-18 09:43:26,740 - main - INFO - Parsing: https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%83%D0%BC%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_%D0%93%D1%80%D0%B0%D0%BD%D0%BE%D0%BB%D1%8C%D0%B5%D1%80%D1%81%D0%B0
+2025-10-18 09:43:27,455 - main - INFO - Parsing: https://www.reddit.com/r/Revit/comments/m7gclj/shared_parameters_not_working_in_sheet/?tl=ru
+2025-10-18 09:43:28,286 - main - INFO - Parsing: https://context.reverso.net/translation/russian-english/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82
+2025-10-18 09:43:28,568 - main - ERROR - Parse error: 403 Client Error: Forbidden for url: https://context.reverso.net/translation/russian-english/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82
+2025-10-18 09:43:28,569 - main - INFO - Aggregating 2 sources
+2025-10-18 09:43:28,570 - main - INFO - Calling model: qwen2.5:7b-instruct-q4_K_M
+2025-10-18 09:43:30,063 - main - INFO - Model qwen2.5:7b-instruct-q4_K_M response: 65 chars
+2025-10-18 09:43:30,164 - main - INFO - Saved: ID=2
+2025-10-18 09:45:14,950 - main - ERROR - Ask endpoint error: 400: Query is required
+2025-10-18 09:48:10,759 - main - WARNING - GPU not detected
+2025-10-18 09:48:10,790 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-18 09:48:10,934 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-18 09:48:10,935 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-10-18 09:48:15,651 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-18 09:48:15,658 - main - INFO - ✅ ChromaDB and SentenceTransformer initialized
+2025-10-18 09:48:24,998 - main - ERROR - Ask endpoint error: 400: Query is required
+2025-10-18 09:48:35,225 - main - ERROR - Ask endpoint error: 400: Query is required
+2025-10-18 09:48:39,412 - main - ERROR - Ask endpoint error: 400: Query is required
+2025-10-18 09:48:53,681 - main - ERROR - Ask endpoint error: 400: Query is required
+2025-10-18 09:53:35,597 - main - INFO - Query: привет... | Model: toucan | Web: True
+2025-10-18 09:53:35,610 - main - INFO - Simple query
+2025-10-18 09:53:42,531 - main - INFO - Query: какая погода в туймазах?... | Model: toucan | Web: True
+2025-10-18 09:53:42,534 - main - INFO - Web needed: погода
+2025-10-18 09:53:42,535 - main - INFO - Web mode: RAG
+2025-10-18 09:53:42,535 - main - INFO - Extracting URLs...
+2025-10-18 09:53:42,536 - main - INFO - Extracted 0/0 valid URLs
+2025-10-18 09:53:42,536 - main - INFO - Intent: weather
+2025-10-18 09:53:42,537 - main - WARNING - OpenWeather API key not set
+2025-10-18 09:59:41,370 - main - WARNING - GPU not detected
+2025-10-18 09:59:41,417 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-18 09:59:41,592 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-18 09:59:41,593 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-10-18 09:59:45,801 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-18 09:59:45,807 - main - INFO - ✅ ChromaDB and SentenceTransformer initialized
+2025-10-18 10:02:58,658 - main - WARNING - GPU not detected
+2025-10-18 10:02:58,694 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-18 10:02:58,865 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-18 10:02:58,865 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-10-18 10:04:01,387 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-18 10:04:01,396 - main - INFO - ✅ ChromaDB and SentenceTransformer initialized
