@@ -1,0 +1,7 @@
+{
+  "entry_point": "main.py",
+  "builder": "pyinstaller",
+  "onefile": true,
+  "console": true,
+  "extra_args": []
+}

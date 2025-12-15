@@ -1,0 +1,9 @@
+{
+  "allowed_commands": {
+    "pyinstaller": ["--onefile", "--noconsole"],
+    "pytest": [],
+    "python": ["-m", "py_compile"]
+  },
+  "ignored_dirs": [".git", "__pycache__", ".venv", ".idea"],
+  "allowed_paths": ["/workspace/plka"]
+}
