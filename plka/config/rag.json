@@ -1,0 +1,22 @@
+{
+  "embedder": {
+    "model": "BAAI/bge-small-en-v1.5"
+  },
+  "chunking": {
+    "size": 1000,
+    "overlap": 200,
+    "code_aware": true,
+    "max_file_size": 50000
+  },
+  "search": {
+    "top_k": 5,
+    "candidate_k": 20,
+    "hnsw_ef": 100,
+    "quantization": true
+  },
+  "rerank": {
+    "enabled": false,
+    "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "top_candidates": 20
+  }
+}

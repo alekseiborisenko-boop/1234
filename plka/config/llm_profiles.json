@@ -1,0 +1,14 @@
+{
+  "hardware_class": "cpu_low",
+  "koboldcpp_url": "http://localhost:5001",
+  "profiles": {
+    "planner": {
+      "local": "phi3-mini-q5.gguf",
+      "cloud": "gpt-4o-mini"
+    },
+    "coder": {
+      "local": "qwen2.5-coder-7b-q4.gguf",
+      "cloud": "gpt-4o"
+    }
+  }
+}
